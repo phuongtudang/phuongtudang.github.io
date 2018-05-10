@@ -1,0 +1,108 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; 
+}
+
+body {
+    font-family: 'Source Serif Pro', serif;
+    color: #515151;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #fff;
+    font-size: 10rem;
+    font-weight: 500;
+    margin-bottom: 7rem;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 3rem;
+}
+
+a:hover {
+    color: #bdc3c7;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 2rem;
+    color: grey;
+}
+
+button:focus {
+    outline:0;
+}
+
+.wrapper {
+    display: block;
+}
+
+.social-link:link, .social-link:visited {
+    color: grey;
+}
+
+.social {
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#sidebar {
+    min-width: 30vw;
+    max-width: 35vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.sidebar_content {
+    padding: 5rem;
+}
+
+.sidebar-menu {
+    margin: 2.5rem 0;
+    padding: 0;
+}
+
+/* COLORS */
+
+.red {
+    background-color: #ac4142;
+}
+  
+.orange {
+    background-color: #d28445;
+}
+  
+.yellow {
+    background-color: #f4bf75;
+}
+  
+.green {
+    background-color: #90a959;
+}
+  
+.blue {
+    background-color: #6a9fb5;
+}
+  
+.brown {
+    background-color: #8f5536;
+}
+

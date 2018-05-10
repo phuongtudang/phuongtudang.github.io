@@ -1,0 +1,25 @@
+{
+  "name": "phuongtudang.github.io",
+  "version": "1.0.0",
+  "description": "Personal Site",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phuongtudang/phuongtudang.github.io.git"
+  },
+  "author": "Phuong Dang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phuongtudang/phuongtudang.github.io/issues"
+  },
+  "homepage": "https://github.com/phuongtudang/phuongtudang.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
