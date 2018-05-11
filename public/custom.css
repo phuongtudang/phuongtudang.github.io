@@ -47,7 +47,7 @@ button:focus {
 
 .sidebar-header h1 {
     color: #fff;
-    font-size: 10rem;
+    font-size: 8rem;
     font-weight: 500;
     margin-bottom: 7rem;
 }
@@ -80,6 +80,10 @@ button:focus {
     height: 100vh;
 }
 
+#main-title {
+    font-size: 5rem;
+}
+
 /* COLORS */
 
 .red {
@@ -99,10 +103,34 @@ button:focus {
 }
   
 .blue {
-    background-color: #6a9fb5;
+    background-color: #6a9fb5;   
 }
   
 .brown {
     background-color: #8f5536;
+}
+
+.redLetter {
+    color: #ac4142
+}
+  
+.orangeLetter {
+    color: #d28445;
+}
+  
+.yellowLetter {
+    color: #f4bf75;    
+}
+  
+.greenLetter {
+    color: #90a959;    
+}
+  
+.blueLetter {
+    color: #6a9fb5;    
+}
+  
+.brownLetter {
+    color: #8f5536;    
 }
 
