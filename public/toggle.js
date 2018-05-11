@@ -5,7 +5,7 @@ let i = 1;
 
 button.addEventListener("click", function() {
     if (i < colorArray.length) {
-        nav.classList.replace(colorArray[i-1], colorArray[i]);
+        nav.classList.replace(colorArray[i - 1], colorArray[i]);
         i++; 
     } else {
         i = 0;
